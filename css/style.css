@@ -8,8 +8,15 @@ body{
     background-color: aquamarine;
     font-family: 'Fredoka', sans-serif;
 }
+/* COMMON */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* HEADER */
 .container{
-    width: 65%;
+    width: 63%;
     margin: auto;
     background-color: azure;
 }
@@ -20,7 +27,22 @@ h1{
 }
 .text-center{
     text-align: center;
+    margin-bottom: 50px;
 }
+/* MAIN */
 img{
-    height: 300px;
+    height: 100px;
+}
+.col{
+    width: calc(100% / 3);
+    float: left;
+    padding: 15px;
+}
+.card{
+    background-color: red;
+}
+.card-text{
+    float: right;
+    padding: 10px 0;
+    padding-right: 140px ;
 }
