@@ -8,3 +8,19 @@ body{
     background-color: aquamarine;
     font-family: 'Fredoka', sans-serif;
 }
+.container{
+    width: 65%;
+    margin: auto;
+    background-color: azure;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+    color: #e53170;
+}
+.text-center{
+    text-align: center;
+}
+img{
+    height: 300px;
+}
