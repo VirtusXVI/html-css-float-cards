@@ -34,7 +34,7 @@ img{
 .col{
     width: calc(100% / 3);
     float: left;
-    padding: 15px;
+    padding: 15px 15px;
 }
 .card{
     background-color: #0f0e17;
@@ -42,9 +42,10 @@ img{
 }
 .card-text{
     float: right;
-    margin: 10px 0;
-    padding-right: 110px ;
+    margin-top: 10px;
+    padding-right: 70px;
     font-weight: 400;
+    width: 250px;
     color: white;
 }
 .email{
