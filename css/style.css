@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 body{
-    background-color: aquamarine;
     font-family: 'Fredoka', sans-serif;
 }
 /* COMMON */
@@ -14,12 +13,11 @@ body{
     display: table;
     clear: both;
 }
-/* HEADER */
 .container{
     width: 63%;
     margin: auto;
-    background-color: azure;
 }
+/* HEADER */
 h1{
     text-align: center;
     margin: 30px;
@@ -39,10 +37,25 @@ img{
     padding: 15px;
 }
 .card{
-    background-color: red;
+    background-color: #0f0e17;
+    height: 100px;
 }
 .card-text{
     float: right;
-    padding: 10px 0;
-    padding-right: 140px ;
+    margin: 10px 0;
+    padding-right: 110px ;
+    font-weight: 400;
+    color: white;
+}
+.email{
+    color: #4cc6ee;
+}
+h3{
+    padding: 5px 0;
+}
+span{
+    margin: 10px 0;
+}
+p{
+    margin-top: 5px;
 }
